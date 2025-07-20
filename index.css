@@ -1,0 +1,76 @@
+* {
+  background-color: lightgoldenrodyellow;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: darkslategray;
+  font-size: 2.5em;
+}
+
+#welcome {
+  color: darkslategray;
+  font-size: 1.5em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.productcard {
+  background-color: lightpink;
+  margin: auto;
+  border-color: black;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  width: 20rem;
+  margin-bottom: 50px;
+}
+
+.productname {
+  color: black;
+  background-color: lightpink;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.productcard img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.productdesc {
+  color: darkslategray;
+  background-color: lightpink;
+  font-style: italic;
+}
+
+.productcard .productprice {
+  color: black;
+  font-weight: bold;
+  font-size: 1.4em;
+  background-color: lightpink;
+}
+
+.productcard .productprice s {
+  color: darkred;
+  font-weight: normal;
+  font-size: small;
+}
+
+.addtocardbutton {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.addtocardbutton:active {
+  background-color: darkblue;
+}
+.addtocardbutton:hover {
+  background-color: orange;
+}
